@@ -16,11 +16,16 @@ const HeroBanner = () => {
             </div>
 
 
-            <button className='explore-button '>Explore</button>
+            {/* <button className='explore-button '>Explore</button> */}
+
+
+    
 
 
 
         </div>
+
+        
     )
 }
 
