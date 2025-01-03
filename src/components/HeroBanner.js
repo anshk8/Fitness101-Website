@@ -2,10 +2,22 @@ import React from 'react'
 import Banner from "../images/gym-banner.jpg";
 const HeroBanner = () => {
     return (
-        <div className='hero-banner'>
+        <div
+            style={{
+                backgroundImage: `url(${Banner})`,
+                backgroundSize: 'cover', // Ensure the image covers the div
+                backgroundPosition: 'center', // Center the image
+                backgroundRepeat: 'no-repeat', // Prevent repeating
+                height: '50vh', // Full screen height
+                display: 'flex', // To enable centering the text
+                justifyContent: 'center', // Center horizontally
+                alignItems: 'center', // Center vertically
+                textAlign: 'center', // Center text
+            }}
+            className="hero-banner"
+        >
 
-
-            <img alt="gym-banner" src={Banner} />
+            
 
 
             <div className='hero-text'>
